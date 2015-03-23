@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">MyGradeTracker</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title">My GradeTracker</string>
+    <string name="my_grades">My Grades</string>
+    <string name="create_class">Create Class</string>
+    <string name="title_activity_create_class">MyGrade Tracker</string>
+    <string name="create_class_title">Class Setup</string>
+    <string name="class_text_view">Class</string>
+    <string name="weight_text_view">Weight(%)</string>
+    <string name="homework_text_view">Homework</string>
+    <string name="midterm_text_view">Midterm</string>
+    <string name="final_text_view">Final</string>
+    <string name="labs_text_view">Labs</string>
+    <string name="participation_text_view">Participation</string>
+    <string name="other_text_view">Other</string>
+    <string name="ok_button">Done</string>
+    <string name="title_activity_my_classes">MyGrade Tracker</string>
+    <string name="options_new_class">New Class</string>
+    <string name="new_assignment_title">New Grade</string>
+    <string name="title_activity_add_grade">MyGrade Tracker</string>
+    <string name="nelson_mandela_quote">Education is the most powerful weapon which you can use to change the world.   ~Nelson Mandela</string>
+    <string name="max_score_text_view">Max Score:</string>
+    <string name="intro_text_view">MyGrade Tracker is a simple, user-friendly app that allows students of all grades to keep track of their assignments as well as their total percentage in their classes. To add a new class, simply click on the Add Class option in the menu and enter the criteria for the grading. To navigate between different classes, simple swipe left or right to the desired class. This is the alpha version of this app. More updates are sure to come.</string>
+    <string name="title_activity_edit_assignment">Edit_assignment</string>
+    <string name="edit_assn_name_title">Assignments</string>
+
+</resources>

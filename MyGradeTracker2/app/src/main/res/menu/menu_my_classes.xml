@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:yourapp="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+
+    <item android:id="@+id/menu_add_class"
+        android:title="Add Class"
+        yourapp:showAsAction="never"
+        android:onClick="goToAddClassOnClick"/>
+    <item android:id="@+id/menu_add_assignments"
+        android:title="Add Assignment"
+        yourapp:showAsAction="never"
+        android:onClick="onClickToAddAssn"/>
+    <item android:id="@+id/menu_remove_class"
+        android:title="Remove Class"
+        yourapp:showAsAction="never"
+        android:onClick="onClickRemoveClass"/>
+    <item android:id="@+id/menu_remove_all_classes"
+        android:title="Remove all classes"
+        yourapp:showAsAction="never"
+        android:onClick="onClickRemoveAllClasses"
+        />
+    <item android:id="@+id/menu_removeAssignments"
+        android:title="Edit Assignments"
+        android:onClick="onClickToEditAssn"
+        />
+</menu>

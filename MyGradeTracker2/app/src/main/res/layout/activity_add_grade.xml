@@ -1,0 +1,128 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+
+    tools:context=".addGradeActivity"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/new_assignment_title"
+        android:textSize="35dp"
+        android:id="@+id/newGradeTitle"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your Score:"
+        android:textSize="24dp"
+        android:id="@+id/yourScoreTextView"
+        android:layout_below="@+id/newGradeTitle"
+        android:layout_alignLeft="@+id/newGradeTitle"
+        android:layout_alignStart="@+id/newGradeTitle"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="35dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="4"
+        android:id="@+id/yourScoreET"
+        android:layout_alignBottom="@+id/yourScoreTextView"
+        android:layout_toRightOf="@+id/yourScoreTextView"
+        android:layout_toEndOf="@+id/yourScoreTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Max Score:"
+        android:textSize="24dp"
+        android:id="@+id/maxScoreTextView"
+        android:layout_below="@+id/yourScoreTextView"
+        android:layout_alignLeft="@+id/yourScoreTextView"
+        android:layout_alignStart="@+id/yourScoreTextView"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/maxScoreET"
+        android:ems="4"
+        android:layout_alignBottom="@+id/maxScoreTextView"
+        android:layout_toRightOf="@+id/maxScoreTextView"
+        android:layout_toEndOf="@+id/maxScoreTextView"
+        android:inputType="number" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroup"
+        android:layout_below="@+id/maxScoreTextView"
+        android:gravity="left"
+        android:layout_marginLeft="125dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Homework"
+            android:id="@+id/rbHomework"
+            android:layout_marginBottom="20dp"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Midterms"
+            android:id="@+id/rbMidterms"
+            android:layout_marginBottom="20dp"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Labs"
+            android:id="@+id/rbLabs"
+            android:layout_marginBottom="20dp"
+            android:checked="false" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Participation"
+            android:id="@+id/rbParticipation"
+            android:layout_marginBottom="20dp"
+            android:checked="false" />
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Final"
+            android:id="@+id/rbFinal"
+            android:layout_marginBottom="15dp"
+            android:checked="false" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Create New Grade"
+        android:id="@+id/newGradeButton"
+        android:onClick="onClickToMyClasses"
+        android:layout_below="@+id/radioGroup"
+        android:layout_alignLeft="@+id/maxScoreTextView"
+        android:layout_alignStart="@+id/maxScoreTextView"
+        />
+
+</RelativeLayout>
