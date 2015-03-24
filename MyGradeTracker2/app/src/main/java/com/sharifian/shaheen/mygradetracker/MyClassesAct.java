@@ -31,7 +31,6 @@ import java.util.Random;
 
 public class MyClassesAct extends ActionBarActivity {
     private static final int TEXT_SIZE = 16;
-
     private ViewFlipper flipper;
     private int maxClasses;
     private int currentPage;

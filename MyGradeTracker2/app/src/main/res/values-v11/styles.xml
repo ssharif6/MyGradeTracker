@@ -1,13 +1,10 @@
 <resources>
-
     <!-- Base application theme. -->
-    <style name="AppBaseTheme" parent="android:Theme.Light">
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light">
         // Theme.AppCompat.Light.DarkActionBar
         <!-- Customize your theme here. -->
+        // API through 11 - 13
 
     </style>
-    <style name="AppTheme" parent="AppBaseTheme">
-
-    </style>
-
 </resources>
+

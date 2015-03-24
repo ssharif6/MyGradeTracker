@@ -1,13 +1,9 @@
 <resources>
-
     <!-- Base application theme. -->
-    <style name="AppBaseTheme" parent="android:Theme.Light">
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
         // Theme.AppCompat.Light.DarkActionBar
         <!-- Customize your theme here. -->
+        // Android api 14+
 
     </style>
-    <style name="AppTheme" parent="AppBaseTheme">
-
-    </style>
-
 </resources>
