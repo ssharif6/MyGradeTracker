@@ -30,12 +30,15 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/ETclassName"
+        android:maxLines="1"
+        android:hint="Class Name"
         android:ems="8"
         android:layout_alignBottom="@+id/classTextView"
         android:layout_alignLeft="@+id/createClassTitleTextView"
         android:layout_alignStart="@+id/createClassTitleTextView"
         android:layout_alignRight="@+id/createClassTitleTextView"
-        android:layout_alignEnd="@+id/createClassTitleTextView" />
+        android:layout_alignEnd="@+id/createClassTitleTextView"
+        android:inputType="text" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -97,6 +100,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
+        android:hint="Weight (%)"
+        android:maxLines="1"
+        android:maxLength="3"
         android:ems="10"
         android:id="@+id/ETMidterm"
         android:layout_alignBottom="@+id/midtermTextView"
@@ -106,6 +112,9 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:hint="Weight (%)"
+        android:maxLines="1"
+        android:maxLength="3"
         android:inputType="number"
         android:ems="10"
         android:id="@+id/ETHomework"
@@ -117,6 +126,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
+        android:hint="Weight (%)"
+        android:maxLength="3"
+        android:maxLines="1"
         android:ems="10"
         android:id="@+id/ETLabs"
         android:layout_alignBottom="@+id/LabsTextView"
@@ -129,6 +141,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
+        android:hint="Weight (%)"
+        android:maxLines="1"
+        android:maxLength="3"
         android:ems="10"
         android:id="@+id/ETParticipation"
         android:layout_alignBottom="@+id/participationTextView"
@@ -139,6 +154,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:inputType="number"
+        android:hint="Weight (%)"
+        android:maxLength="3"
+        android:maxLines="1"
         android:ems="10"
         android:id="@+id/ETFinal"
         android:layout_alignBottom="@+id/finalTextView"
@@ -155,18 +173,5 @@
         android:layout_toEndOf="@+id/homeworkTextView"
         android:clickable="true"
         android:onClick="onClickToMyClasses" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textAppearance="?android:attr/textAppearanceSmall"
-        android:text="Weight (%)"
-        android:id="@+id/textView"
-        android:layout_below="@+id/ETclassName"
-        android:layout_toRightOf="@+id/ETclassName"
-        android:layout_above="@+id/ETHomework"
-        android:layout_alignRight="@+id/ETHomework"
-        android:layout_alignEnd="@+id/ETHomework"
-        android:textSize="20dp" />
 
 </RelativeLayout>
