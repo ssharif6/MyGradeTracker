@@ -32,8 +32,10 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:hint="Your Score"
+        android:maxLines="1"
         android:inputType="number"
-        android:ems="4"
+        android:ems="5"
         android:id="@+id/yourScoreET"
         android:layout_alignBottom="@+id/yourScoreTextView"
         android:layout_toRightOf="@+id/yourScoreTextView"
@@ -53,8 +55,10 @@
     <EditText
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:hint="Max Score"
+        android:maxLines="1"
         android:id="@+id/maxScoreET"
-        android:ems="4"
+        android:ems="5"
         android:layout_alignBottom="@+id/maxScoreTextView"
         android:layout_toRightOf="@+id/maxScoreTextView"
         android:layout_toEndOf="@+id/maxScoreTextView"

@@ -242,9 +242,11 @@ public class MyClassesAct extends ActionBarActivity {
         }
     }
 
+    // Try to implement animations here (crossfade)
     public boolean onTouchEvent(MotionEvent touchevent) {
         float initialX = 0;
         ViewFlipper TruitonFlipper = (ViewFlipper) findViewById(R.id.flipperId);
+
         switch (touchevent.getAction()) {
             case MotionEvent.ACTION_DOWN:
                 initialX = touchevent.getX();
