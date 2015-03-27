@@ -237,7 +237,7 @@ public class MyClassesAct extends ActionBarActivity {
         for (int i = 0; i < c.assignments.size(); i++) {
             Assignment x = c.assignments.get(i);
             tb = new TextView(this);
-            tb.setText(x.Category.toString() + " " + x.score + "/" + x.maxScore );
+            tb.setText(x.name + "(" + x.Category.toString() + ") " + x.score + "/" + x.maxScore );
             layout.addView(tb);
         }
     }

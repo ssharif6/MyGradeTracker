@@ -79,6 +79,8 @@ public class addGradeActivity extends ActionBarActivity {
         x.score = Integer.parseInt(tv.getText().toString());
         tv = (EditText) findViewById(R.id.maxScoreET);
         x.maxScore = Integer.parseInt(tv.getText().toString());
+        tv = (EditText) findViewById(R.id.assignmentNameET);
+        x.name = tv.getText().toString();
         RadioGroup rg = (RadioGroup) findViewById(R.id.radioGroup);
         int id = rg.getCheckedRadioButtonId();
         if (id == R.id.rbHomework) {
